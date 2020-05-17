@@ -1,8 +1,12 @@
 import React from 'react';
+import Header from './components/Header';
+import logo from './logo.svg';
 
 function App() {
   return (
-    <h1>Desafio 04</h1>
+    <Header>
+      <img src={logo} alt="facebookLogo" />
+    </Header>
   );
 }
 
