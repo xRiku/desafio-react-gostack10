@@ -11,9 +11,17 @@ const Header = styled.header`
     margin-left: 40px;
   }
 
-  h1 {
-    margin-right: 50px;
+  a {
     color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    svg {
+      margin-left: 5px;
+    }
   }
 `;
 
