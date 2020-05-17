@@ -2,6 +2,8 @@ import React from 'react';
 import { FaUserCircle } from 'react-icons/fa';
 
 import Header from './components/Header';
+import PostList from './components/PostList';
+import Post from './components/Post';
 
 import logo from './logo.svg';
 import GlobalStyles from './styles/global';
@@ -16,6 +18,7 @@ function App() {
           <FaUserCircle />
         </a>
       </Header>
+      <PostList>
       <GlobalStyles />
     </>
   );
