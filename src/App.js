@@ -18,7 +18,7 @@ function App() {
           <FaUserCircle />
         </a>
       </Header>
-      <PostList>
+      <PostList />
       <GlobalStyles />
     </>
   );
