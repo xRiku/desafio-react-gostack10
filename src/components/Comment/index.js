@@ -5,10 +5,11 @@ export default function Comment(props) {
   const { data } = props;
   return (
     <CommentContainer>
-      <img src={data.author.avatar} />
+      <img src={data.author.avatar} alt={data.author.name} />
       <div>
-        <h2>{data.author.name}</h2>
-        <p>{data.content}</p>
+        <p>
+          <strong>{data.author.name}</strong> {data.content}
+        </p>
       </div>
     </CommentContainer>
   );
