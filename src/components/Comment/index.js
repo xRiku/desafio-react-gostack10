@@ -1,7 +1,10 @@
-import styled from 'styled-components';
+import React from 'react';
 
-const Comment = styled.li`
-  background-color: #3e3e3e;
-`;
-
-export default Comment;
+export default function Comment(props) {
+  return (
+    <li>
+      {/* <img src={props.au} */}
+      <h1>Comentário</h1>
+    </li>
+  );
+}
