@@ -2,14 +2,17 @@ import styled from 'styled-components';
 
 export const PostContainer = styled.li`
   display: grid;
-  max-width: 500px;
-  background-color: #f5f5f5;
+  width: 680px;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 1%;
+  background-color: #151515;
   grid-template-areas:
     'avatar name'
     'avatar date'
     'text text';
   grid-template-rows: 30px auto 50px;
-  grid-template-columns: 70px auto auto;
+  grid-template-columns: 70px auto;
   img {
     grid-area: avatar;
     border-radius: 50%;
