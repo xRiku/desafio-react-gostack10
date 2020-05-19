@@ -23,7 +23,8 @@ export default class PostList extends Component {
               avatar:
                 'https://avatars0.githubusercontent.com/u/2254731?s=400&u=391c32fec7b372199dff6650930b89563189b1c0&v=4',
             },
-            content: 'Conteúdo do comentário',
+            content:
+              'A Rocketseat está sempre em busca de novos membros para o time, e geralmente ficamos de olho em quem se destaca no Boootcamp, inclusive 80% do nosso time de devs é composto por alunos do Bootcamp. Além disso, se você tem vontade de ensinar gravando vídeos e criando posts, podem me chamar no Discord! (Sério, mne chamem mesmo, esse comentário é real.',
           },
         ],
       },
@@ -44,7 +45,8 @@ export default class PostList extends Component {
               avatar:
                 'https://avatars0.githubusercontent.com/u/2254731?s=400&u=391c32fec7b372199dff6650930b89563189b1c0&v=4',
             },
-            content: 'Conteúdo do comentário',
+            content:
+              'A Rocketseat está sempre em busca de novos membros para o time, e geralmente ficamos de olho em quem se destaca no Boootcamp, inclusive 80% do nosso time de devs é composto por alunos do Bootcamp. Além disso, se você tem vontade de ensinar gravando vídeos e criando posts, podem me chamar no Discord! (Sério, mne chamem mesmo, esse comentário é real.',
           },
         ],
       },

@@ -2,17 +2,18 @@ import styled from 'styled-components';
 
 export const PostContainer = styled.li`
   background-color: #fff;
-  max-width: 700px;
+  max-width: 900px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   display: grid;
-  width: 680px;
+  width: 880px;
   padding: 10px;
   margin-top: 10px;
   border-radius: 1%;
   grid-template-areas:
     'avatar name'
     'avatar date'
-    'text text';
+    'text text'
+    'comments comments';
   /* grid-template-rows: 30px auto 50px; */
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 70px auto;
@@ -38,10 +39,13 @@ export const PostContainer = styled.li`
     grid-area: date;
     color: #9a9a9a;
   }
-  h3 {
+  p {
     grid-area: text;
     color: #3e3e3e;
     padding: 10px;
     margin-top: 5px;
+  }
+  ul {
+    grid-area: comments;
   }
 `;
