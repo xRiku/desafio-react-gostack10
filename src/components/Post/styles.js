@@ -1,18 +1,25 @@
 import styled from 'styled-components';
 
 export const PostContainer = styled.li`
+  background-color: #fff;
+  max-width: 700px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   display: grid;
   width: 680px;
   padding: 10px;
-  margin: 2px;
+  margin-top: 10px;
   border-radius: 1%;
-  background-color: #151515;
   grid-template-areas:
     'avatar name'
     'avatar date'
     'text text';
-  grid-template-rows: 30px auto 50px;
+  /* grid-template-rows: 30px auto 50px; */
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 70px auto;
+
+  & + li {
+    margin-top: 20px;
+  }
   img {
     grid-area: avatar;
     border-radius: 50%;
@@ -35,5 +42,6 @@ export const PostContainer = styled.li`
     grid-area: text;
     color: #3e3e3e;
     padding: 10px;
+    margin-top: 5px;
   }
 `;
