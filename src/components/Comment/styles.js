@@ -7,8 +7,8 @@ export const CommentContainer = styled.li`
   padding-top: 20px;
   border-top: 1px solid #eee;
   img {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     padding: 0px;
     margin-right: 10px;
   }
