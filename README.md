@@ -12,7 +12,7 @@ Link para especificação: https://github.com/Rocketseat/bootcamp-gostack-desafi
 - [React-icons](https://react-icons.netlify.com/#/)
 
 ## :bulb: Aprendizado:
-Nesse projeto aprendi a utilizar a estrutura do ReactJS e styled-components para criar componentes de forma eficiente e funcional
+Nesse projeto aprendi a utilizar a estrutura do ReactJS e styled-components para criar componentes de forma eficiente e funcional.
 
 ## :fire: Resultado:
 ![result](.github/result.png)
