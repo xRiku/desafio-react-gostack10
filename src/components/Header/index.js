@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Header = styled.header`
-  padding: 15px 0;
+  padding: 25px 0;
   background-color: #4a90e2;
   display: flex;
   justify-content: space-between;
@@ -9,11 +9,12 @@ const Header = styled.header`
 
   img {
     margin-left: 40px;
+    width: 150px;
   }
 
   a {
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
     margin-right: 50px;
     font-weight: bold;

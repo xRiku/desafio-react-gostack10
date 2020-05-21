@@ -44,6 +44,7 @@ export const PostContainer = styled.li`
     color: #3e3e3e;
     padding: 10px;
     margin-top: 5px;
+    font-size: 20px;
   }
   ul {
     grid-area: comments;
