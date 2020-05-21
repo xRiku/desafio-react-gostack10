@@ -3,7 +3,7 @@
 </h1>
 
 ## :book: Sobre:
-O Repositório foi criado com o intuito de realizar o desafio 04 do curso GoStack da RocketSeat.
+O Repositório foi criado com o intuito de realizar o desafio 04 do curso GoStack da RocketSeat.<br>
 Link para especificação: https://github.com/Rocketseat/bootcamp-gostack-desafio-04
 
 ## :gear: Tecnologias:
