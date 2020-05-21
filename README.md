@@ -15,5 +15,6 @@ Link para especificação: https://github.com/Rocketseat/bootcamp-gostack-desafi
 Nesse projeto aprendi a utilizar a estrutura do ReactJS e styled-components para criar componentes de forma eficiente e funcional
 
 ## :fire: Resultado:
+![result](.github/result.png)
 
 Feito com ❤️ por Philipe Marques 👋🏻 [Get in touch!](https://github.com/xRiku)
