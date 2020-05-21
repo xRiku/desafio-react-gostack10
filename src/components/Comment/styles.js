@@ -14,7 +14,9 @@ export const CommentContainer = styled.li`
   }
   div {
     background-color: #e7e7e7;
+    font-size: 18px;
     border-radius: 20px;
+    margin-top: -5px;
     strong {
       color: #4a4a4a;
     }

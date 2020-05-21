@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const PostContainer = styled.li`
   background-color: #fff;
-  max-width: 800px;
+  max-width: 1000px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   display: grid;
-  width: 780px;
+  width: 980px;
   padding: 10px;
   margin-top: 10px;
   border-radius: 1%;
