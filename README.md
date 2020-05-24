@@ -17,4 +17,6 @@ Nesse projeto aprendi a utilizar a estrutura do ReactJS e styled-components para
 ## :fire: Resultado:
 ![result](.github/result.png)
 
+---
+
 Feito com ❤️ por Philipe Marques 👋🏻 [Get in touch!](https://github.com/xRiku)
